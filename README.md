@@ -28,7 +28,7 @@ Browser:
 <script type="text/javascript" src="bignumber.js"></script>
 <script type="text/javascript" src="ethereumjs-tx.js"></script> <!-- dist version -->
 <script type="text/javascript" src="web3.js"></script>
-<script type="text/javsacript" src="./build/blockapps-web3.js"></script>
+<script type="text/javascript" src="./build/blockapps-web3.js"></script>
 ```
 
 Note that to avoid dependency coupling, you must include [BigNumber](https://github.com/MikeMcl/bignumber.js/), [ethereumjs-tx](https://github.com/ethereum/ethereumjs-tx), and [web3](https://github.com/ethereum/web3.js) on your own when using BlockApps-Web3 in the browser. Those three dependencies **must** be included in the browser before including the `blockapps-web3.js` script.
